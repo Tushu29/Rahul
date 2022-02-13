@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="CromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testPackageKite.LoginTest">
+        <methods>
+          <include name="browserClosed"/>
+          <include name="pageobjectsNull"/>
+          <include name="logOut"/>
+          <include name="launchbrowser"/>
+          <include name="login"/>
+          <include name="loginverification"/>
+          <include name="pageObjects"/>
+        </methods>
+      </class> <!-- testPackageKite.LoginTest -->
+    </classes>
+  </test> <!-- CromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
