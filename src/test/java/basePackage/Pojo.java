@@ -7,6 +7,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Pojo {
 	
+	//base class space added
+	
+	
 	public static WebDriver LaunchChrome()
 	{
 		System.setProperty("webdriver.chrome.driver", "D:\\RP\\Software Testing\\Selenium\\chromedriver.exe");
